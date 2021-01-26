@@ -11,6 +11,7 @@ module Prpr
         def events
           {
             commit_comment: CommitComment,
+            issues: Issues,
             issue_comment: IssueComment,
             pull_request: PullRequest,
             pull_request_review: PullRequestReview,
